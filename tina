@@ -1,0 +1,4 @@
+#!/bin/sh
+# Tina Global Code v0.2 Candidate — reference CLI entry script.
+# Usage: ./tina <command> [options]
+exec python3 -m tina_global_code.cli "$@"
